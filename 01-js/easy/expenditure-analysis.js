@@ -14,7 +14,14 @@
 */
 
 function calculateTotalSpentByCategory(transactions) {
-  return [];
+  console.log(Object.fromEntries(transactions))
 }
 
+calculateTotalSpentByCategory({
+  id: 1,
+  timestamp: 1656076800000,
+  price: 10,
+  category: 'Food',
+  itemName: 'Pizza',
+})
 module.exports = calculateTotalSpentByCategory;
